@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9C509F818441F4C0058504E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C509F718441F4C0058504E /* Foundation.framework */; };
+		C9C509FD18441F4C0058504E /* MRX.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C9C509FC18441F4C0058504E /* MRX.h */; };
+		C9C509FF18441F4C0058504E /* MRX.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C509FE18441F4C0058504E /* MRX.m */; };
+		C9C50A0618441F4C0058504E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C50A0518441F4C0058504E /* XCTest.framework */; };
+		C9C50A0718441F4C0058504E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C509F718441F4C0058504E /* Foundation.framework */; };
+		C9C50A0C18441F4C0058504E /* libMRX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C509F418441F4C0058504E /* libMRX.a */; };
+		C9C50A1418441F4C0058504E /* MRXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C50A1318441F4C0058504E /* MRXTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9C50A0A18441F4C0058504E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9C509EC18441F4C0058504E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9C509F318441F4C0058504E;
+			remoteInfo = MRX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C9C509F218441F4C0058504E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				C9C509FD18441F4C0058504E /* MRX.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C9C509F418441F4C0058504E /* libMRX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMRX.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C509F718441F4C0058504E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C9C509FB18441F4C0058504E /* MRX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MRX-Prefix.pch"; sourceTree = "<group>"; };
+		C9C509FC18441F4C0058504E /* MRX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRX.h; sourceTree = "<group>"; };
+		C9C509FE18441F4C0058504E /* MRX.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRX.m; sourceTree = "<group>"; };
+		C9C50A0418441F4C0058504E /* MRXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MRXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C50A0518441F4C0058504E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C9C50A0F18441F4C0058504E /* MRXTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MRXTests-Info.plist"; sourceTree = "<group>"; };
+		C9C50A1318441F4C0058504E /* MRXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRXTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9C509F118441F4C0058504E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C509F818441F4C0058504E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C50A0118441F4C0058504E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C50A0618441F4C0058504E /* XCTest.framework in Frameworks */,
+				C9C50A0C18441F4C0058504E /* libMRX.a in Frameworks */,
+				C9C50A0718441F4C0058504E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9C509EB18441F4C0058504E = {
+			isa = PBXGroup;
+			children = (
+				C9C509F918441F4C0058504E /* MRX */,
+				C9C50A0D18441F4C0058504E /* MRXTests */,
+				C9C509F618441F4C0058504E /* Frameworks */,
+				C9C509F518441F4C0058504E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9C509F518441F4C0058504E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9C509F418441F4C0058504E /* libMRX.a */,
+				C9C50A0418441F4C0058504E /* MRXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9C509F618441F4C0058504E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9C509F718441F4C0058504E /* Foundation.framework */,
+				C9C50A0518441F4C0058504E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9C509F918441F4C0058504E /* MRX */ = {
+			isa = PBXGroup;
+			children = (
+				C9C509FC18441F4C0058504E /* MRX.h */,
+				C9C509FE18441F4C0058504E /* MRX.m */,
+				C9C509FA18441F4C0058504E /* Supporting Files */,
+			);
+			path = MRX;
+			sourceTree = "<group>";
+		};
+		C9C509FA18441F4C0058504E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9C509FB18441F4C0058504E /* MRX-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9C50A0D18441F4C0058504E /* MRXTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9C50A1318441F4C0058504E /* MRXTests.m */,
+				C9C50A0E18441F4C0058504E /* Supporting Files */,
+			);
+			path = MRXTests;
+			sourceTree = "<group>";
+		};
+		C9C50A0E18441F4C0058504E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9C50A0F18441F4C0058504E /* MRXTests-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9C509F318441F4C0058504E /* MRX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9C50A1718441F4C0058504E /* Build configuration list for PBXNativeTarget "MRX" */;
+			buildPhases = (
+				C9C509F018441F4C0058504E /* Sources */,
+				C9C509F118441F4C0058504E /* Frameworks */,
+				C9C509F218441F4C0058504E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MRX;
+			productName = MRX;
+			productReference = C9C509F418441F4C0058504E /* libMRX.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C9C50A0318441F4C0058504E /* MRXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9C50A1A18441F4C0058504E /* Build configuration list for PBXNativeTarget "MRXTests" */;
+			buildPhases = (
+				C9C50A0018441F4C0058504E /* Sources */,
+				C9C50A0118441F4C0058504E /* Frameworks */,
+				C9C50A0218441F4C0058504E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9C50A0B18441F4C0058504E /* PBXTargetDependency */,
+			);
+			name = MRXTests;
+			productName = MRXTests;
+			productReference = C9C50A0418441F4C0058504E /* MRXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9C509EC18441F4C0058504E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Matt Rubin";
+			};
+			buildConfigurationList = C9C509EF18441F4C0058504E /* Build configuration list for PBXProject "MRX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C9C509EB18441F4C0058504E;
+			productRefGroup = C9C509F518441F4C0058504E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9C509F318441F4C0058504E /* MRX */,
+				C9C50A0318441F4C0058504E /* MRXTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9C50A0218441F4C0058504E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9C509F018441F4C0058504E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C509FF18441F4C0058504E /* MRX.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C50A0018441F4C0058504E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C50A1418441F4C0058504E /* MRXTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9C50A0B18441F4C0058504E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9C509F318441F4C0058504E /* MRX */;
+			targetProxy = C9C50A0A18441F4C0058504E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C9C50A1518441F4C0058504E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C9C50A1618441F4C0058504E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9C50A1818441F4C0058504E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MRX.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MRX/MRX-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C9C50A1918441F4C0058504E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MRX.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MRX/MRX-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C9C50A1B18441F4C0058504E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MRX/MRX-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MRXTests/MRXTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C9C50A1C18441F4C0058504E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MRX/MRX-Prefix.pch";
+				INFOPLIST_FILE = "MRXTests/MRXTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9C509EF18441F4C0058504E /* Build configuration list for PBXProject "MRX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C50A1518441F4C0058504E /* Debug */,
+				C9C50A1618441F4C0058504E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9C50A1718441F4C0058504E /* Build configuration list for PBXNativeTarget "MRX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C50A1818441F4C0058504E /* Debug */,
+				C9C50A1918441F4C0058504E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9C50A1A18441F4C0058504E /* Build configuration list for PBXNativeTarget "MRXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C50A1B18441F4C0058504E /* Debug */,
+				C9C50A1C18441F4C0058504E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9C509EC18441F4C0058504E /* Project object */;
+}
