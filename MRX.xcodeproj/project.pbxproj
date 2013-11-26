@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		C9C509F818441F4C0058504E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C509F718441F4C0058504E /* Foundation.framework */; };
 		C9C509FD18441F4C0058504E /* MRX.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C9C509FC18441F4C0058504E /* MRX.h */; };
-		C9C509FF18441F4C0058504E /* MRX.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C509FE18441F4C0058504E /* MRX.m */; };
 		C9C50A0618441F4C0058504E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C50A0518441F4C0058504E /* XCTest.framework */; };
 		C9C50A0718441F4C0058504E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C509F718441F4C0058504E /* Foundation.framework */; };
 		C9C50A0C18441F4C0058504E /* libMRX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C509F418441F4C0058504E /* libMRX.a */; };
@@ -45,7 +44,6 @@
 		C9C509F718441F4C0058504E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C9C509FB18441F4C0058504E /* MRX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MRX-Prefix.pch"; sourceTree = "<group>"; };
 		C9C509FC18441F4C0058504E /* MRX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRX.h; sourceTree = "<group>"; };
-		C9C509FE18441F4C0058504E /* MRX.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRX.m; sourceTree = "<group>"; };
 		C9C50A0418441F4C0058504E /* MRXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MRXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9C50A0518441F4C0058504E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C9C50A0F18441F4C0058504E /* MRXTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MRXTests-Info.plist"; sourceTree = "<group>"; };
@@ -110,7 +108,6 @@
 			isa = PBXGroup;
 			children = (
 				C9C509FC18441F4C0058504E /* MRX.h */,
-				C9C509FE18441F4C0058504E /* MRX.m */,
 				C9C50A23184424B30058504E /* MRXTableViewCell.h */,
 				C9C50A24184424B30058504E /* MRXTableViewCell.m */,
 				C9C509FA18441F4C0058504E /* Supporting Files */,
@@ -231,7 +228,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9C509FF18441F4C0058504E /* MRX.m in Sources */,
 				C9C50A25184424B30058504E /* MRXTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
