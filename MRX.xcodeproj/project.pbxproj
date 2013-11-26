@@ -14,6 +14,7 @@
 		C9C50A0718441F4C0058504E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C509F718441F4C0058504E /* Foundation.framework */; };
 		C9C50A0C18441F4C0058504E /* libMRX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C509F418441F4C0058504E /* libMRX.a */; };
 		C9C50A1418441F4C0058504E /* MRXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C50A1318441F4C0058504E /* MRXTests.m */; };
+		C9C50A25184424B30058504E /* MRXTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C50A24184424B30058504E /* MRXTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		C9C50A0F18441F4C0058504E /* MRXTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MRXTests-Info.plist"; sourceTree = "<group>"; };
 		C9C50A1318441F4C0058504E /* MRXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRXTests.m; sourceTree = "<group>"; };
 		C9C50A22184421350058504E /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
+		C9C50A23184424B30058504E /* MRXTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRXTableViewCell.h; sourceTree = "<group>"; };
+		C9C50A24184424B30058504E /* MRXTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRXTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,8 @@
 			children = (
 				C9C509FC18441F4C0058504E /* MRX.h */,
 				C9C509FE18441F4C0058504E /* MRX.m */,
+				C9C50A23184424B30058504E /* MRXTableViewCell.h */,
+				C9C50A24184424B30058504E /* MRXTableViewCell.m */,
 				C9C509FA18441F4C0058504E /* Supporting Files */,
 			);
 			path = MRX;
@@ -227,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9C509FF18441F4C0058504E /* MRX.m in Sources */,
+				C9C50A25184424B30058504E /* MRXTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
