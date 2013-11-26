@@ -49,6 +49,7 @@
 		C9C50A0518441F4C0058504E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C9C50A0F18441F4C0058504E /* MRXTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MRXTests-Info.plist"; sourceTree = "<group>"; };
 		C9C50A1318441F4C0058504E /* MRXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRXTests.m; sourceTree = "<group>"; };
+		C9C50A22184421350058504E /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +79,7 @@
 			children = (
 				C9C509F918441F4C0058504E /* MRX */,
 				C9C50A0D18441F4C0058504E /* MRXTests */,
+				C9C50A1F184420F30058504E /* Config */,
 				C9C509F618441F4C0058504E /* Frameworks */,
 				C9C509F518441F4C0058504E /* Products */,
 			);
@@ -134,6 +136,14 @@
 				C9C50A0F18441F4C0058504E /* MRXTests-Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9C50A1F184420F30058504E /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				C9C50A22184421350058504E /* Common.xcconfig */,
+			);
+			name = Config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +251,7 @@
 /* Begin XCBuildConfiguration section */
 		C9C50A1518441F4C0058504E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9C50A22184421350058504E /* Common.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
@@ -279,6 +290,7 @@
 		};
 		C9C50A1618441F4C0058504E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9C50A22184421350058504E /* Common.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
